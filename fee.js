@@ -12,6 +12,7 @@ function estimateTransactionFee(amountToSend) {
     console.log(`Sending: KES ${amountToSend}`);
     console.log(`Transaction Fee: KES ${fee}`);
     console.log(`Total to Pay: KES ${total}`);
+    console.log(`Send Money Securely!`);
 }
 
 estimateTransactionFee(amount);

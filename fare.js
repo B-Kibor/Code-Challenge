@@ -7,12 +7,11 @@ function calculateBodaFare(distance) {
     const distanceCost = perKmRate * distance;
     const totalFare = baseFare + distanceCost;
 
-    console.log(` Distance: ${distance} Km`);
-    console.log(`Base Fare: KES ${baseFare}`);
-    console.log(` Per Km Cost: KES ${perKmRate}/Km`);
-    console.log(` Total Fare: KES ${totalFare}`);
-    
+    console.log(`Uko kwote? Izo ni ${distance} km:`);
+    console.log(`Ukikalia Pikipiki: KES ${baseFare}`);
+    console.log(`Mpaka Uko: KES ${distance * perKmRate}`);
+    console.log(`Total: KES ${totalFare}`);
+    console.log(`Panda Pikipiki!`);
 }
 
-calculateBodaFare(km); 
-
+calculateBodaFare(km);

@@ -7,6 +7,8 @@ function calculateChaiIngredients(cups) {
     console.log(` Water: ${cups * 50} ml`);
     console.log(`Tea Leaves: ${cups} tbsp`);
     console.log(`Sugar: ${cups} tsp`);
+    console.log(`Enjoy your Chai Bora!`);
+
 }
 
 calculateChaiIngredients(cups);
